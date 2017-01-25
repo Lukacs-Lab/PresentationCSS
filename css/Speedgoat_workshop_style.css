@@ -1,0 +1,33 @@
+.gdbar img {
+  width: 600px !important;
+  height: 100px !important;
+  margin: 8px 8px;
+}
+
+.gdbar {
+  width: 700px !important;
+  height: 120px !important;
+}
+
+<style>
+H1 {
+  color: #E6C798;
+}
+h2 {
+  color: #294A6B;
+}
+
+a { color: #5E9ECE; }
+
+p { color: #1A2127; }
+
+slides > slide:not(.nobackground):before {
+  width: 200px;
+  height: 36px;
+  background-size: 200px 36px;
+}
+
+
+</style>
+
+< !-- black = #1A2127, tan= #E6C798, dodger blue= #5E9ECE, crimson=#294A6B -->
