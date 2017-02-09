@@ -1,0 +1,235 @@
+---
+title: "Wildlife Biology:<br>There's an App for that"
+author: "Paul M. Lukacs"
+date: "February 10, 2017"
+output: 
+  ioslides_presentation:
+      css: "css/SD_workshop_style.css"
+      logo: UMMainLogo.jpg
+---
+
+## 
+
+<div class="midcenter" style="margin-left:170px; margin-top:0px;">
+<img src="images/Hadley.JPG" width="424px" height="550px" />
+</div>
+
+<!-- 
+## Goals 
+
+- Provide background about what I do
+- Highlight things we've learned
+- Provide advice for data management
+
+-->
+
+## Wildlife Governance Principles
+
+- Strategic and adaptive thinking
+- Evidence-based and broadly informed decision-making
+- Transparency and accountability for decisions and actions
+- Inclusive and diverse participation in decision-making
+- Capacity to deliver conservation
+
+(Chris Smith, Wildlife Management Institute)
+
+## 
+
+<div class="midcenter" style="margin-left:0px; margin-top:0px;">
+<img src="images/DataScienceIsSexy.PNG" width="800px" height="352px" />
+</div>
+Harvard Business Review 2012
+
+## Reporting
+<CENTER><TABLE><TR>
+  <TD></TD>
+  <TD><CENTER></CENTER></TD>
+  </TR>
+  <TR>
+  <TD>
+  <img src="images/Ecology1939.png" width="350px" height="400px" />
+  </TD>
+  <TD>
+  <img src="images/Ecology2014.png" width="350px" height="400px" />
+  </TD>
+  </TR>
+</TABLE></CENTER>
+
+## Reporting
+<CENTER><TABLE><TR>
+  <TD><CENTER>Ecology 1939</TD>
+  <TD><CENTER>Ecology 2014</CENTER></TD>
+  </TR>
+  <TR>
+  <TD>
+  <img src="images/Ecology1939.png" width="350px" height="400px" />
+  </TD>
+  <TD>
+  <img src="images/Ecology2014.png" width="350px" height="400px" />
+  </TD>
+  </TR>
+</TABLE></CENTER>
+
+## Modernizing Workflow
+<CENTER><TABLE><TR>
+  <TD>The old way...</TD>
+  <TD></TD>
+  </TR>
+  <TR>
+  <TD>
+  <img src="images/OldWayWorkflow.png" width="350px" height="120px" />
+  </TD>
+  <TD>
+  <img src="images/BlankWorkflow.png" width="350px" height="314px" />
+  </TD>
+  </TR>
+</TABLE></CENTER>
+
+## Modernizing Workflow
+<CENTER><TABLE><TR>
+  <TD>The old way...</TD>
+  <TD><CENTER>The modern way...</CENTER></TD>
+  </TR>
+  <TR>
+  <TD>
+  <img src="images/OldWayWorkflow.png" width="350px" height="120px" />
+  </TD>
+  <TD>
+  <img src="images/NewWayWorkflowAcademic.png" width="350px" height="314px" />
+  </TD>
+  </TR>
+</TABLE></CENTER>
+
+## Modernizing Workflow
+<CENTER><TABLE><TR>
+  <TD>The old way...</TD>
+  <TD><CENTER>The modern way...</CENTER></TD>
+  </TR>
+  <TR>
+  <TD>
+  <img src="images/OldWayWorkflow.png" width="350px" height="120px" />
+  </TD>
+  <TD>
+  <img src="images/NewWayWorkflow.png" width="350px" height="314px" />
+  </TD>
+  </TR>
+</TABLE></CENTER>
+
+
+## Smoothing the Workflow
+
+- Where does it break?
+
+## Common Data Pitfalls
+
+- Labels contain information
+    - File names
+    - Field names
+
+<img src="images/UglyData.PNG" width="800px" height="200px" />
+
+## Common Data Pitfalls
+
+- Mixing rows and columns
+    - Multiple headers
+
+<img src="images/UglyData.PNG" width="800px" height="200px" />
+
+
+## Common Data Pitfalls
+
+- Color codes
+
+<img src="images/UglyData.PNG" width="800px" height="200px" />
+
+
+## Common Data Pitfalls
+
+- Mixing raw data and summaries
+    - Tables within sheets
+
+<img src="images/UglyData.PNG" width="800px" height="200px" />
+
+## Data Solutions
+
+- Long data
+    - Disk space is cheap
+
+## Data Solutions
+
+- Think outside the rectangle
+    - list-columns
+    - NoSQL
+    - XML
+    - ...
+    
+## Data Solutions
+
+- Data manipulations should be code driven
+    - Maintain a base copy
+    - All manipulations run off the base
+    - Manipulations are temporary
+
+## Code Integrity
+
+- Version Control
+    - GitHub
+- Comments
+- Naming conventions
+
+## PopR
+
+<!-- discuss the origins of PopR -->
+
+## PopR
+
+- Adaptive
+- Evidence-based
+- Transparent
+- Inclusive
+- Supports delivery
+
+## Data Entry
+
+<!-- show tablet app -->
+<!-- show data entry page -->
+
+## Data Visualization
+
+<!-- harvest tab -->
+
+## Data Integrity
+
+<!-- survival tab -->
+
+## Analysis
+
+<!-- survival tab -->
+
+## Hypothesis Driven Modeling
+
+<!-- unit tab -->
+<!-- survival tab -->
+<!-- IPM tab -->
+
+## Flexible Reporting
+
+<!-- user driven tables -->
+
+## Information Sharing
+
+<!-- cougar data sharing -->
+
+## Code Management
+
+<!-- GitHub -->
+
+## How does it all work?
+
+<img src="images/PopR_scheme.PNG" width="800px" height="400px" />
+
+## Questions?
+
+<div class="midcenter" style="margin-left:45px; margin-top:0px;">
+<img src="images/PopR_splashscreen.PNG" width="689px" height="450px" />
+</div>
